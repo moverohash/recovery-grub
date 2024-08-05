@@ -56,4 +56,4 @@ These instructions apply generally to an unencrypted, non-LVM disk on Debian-bas
 
 3. **Reboot and verify.**
 
-Note: There are several additional steps to this procedure if your GRUB2 boot loader resides on a Linux system with an LVM LV root and/or an encrypted root volume. Feel free to message me here; I have these additional instructions written down and have applied them successfully several times to an LVM LV on an SSD which contains a root volume encrypted with the kernel dm-crypt module.
+
