@@ -45,7 +45,12 @@ These instructions apply generally to an unencrypted, non-LVM disk on Debian-bas
      grep -v rootfs /proc/mounts > /etc/mtab
      grub-install /dev/xxy
      ```
-
+   - Other way is For Necessary Files :
+    ```
+    mount --bind /dev /mnt/linux/dev
+    mount --bind /proc /mnt/linux/proc
+    mount --bind /sys /mnt/linux/sys
+   ```
      (Here, `/dev/xxy` = the device name and number on which to install the GRUB boot loader, e.g., `/dev/sda`, not including the root partition number as in `/dev/sda1`.)
 
    - If you want to make any other changes/customizations to GRUB, now is the time to edit the `/etc/default/grub` file and save.
