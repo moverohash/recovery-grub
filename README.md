@@ -1,7 +1,4 @@
 
-
-**To add to the answer provided by user @kirill-a and flesh it out a bit more:**
-
 Here is what I did recently to restore the GRUB boot loader on a Windows 8 and Debian 8 dual-boot machine, after a Windows 8 reinstallation cleared the previous GRUB boot loader entry from the beginning of the disk.
 
 **REPAIR GRUB2: Live USB/CD 'chroot' method on Linux**
